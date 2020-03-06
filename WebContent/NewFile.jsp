@@ -10,6 +10,7 @@ table {
 	border-right: 1px solid blue;
 	border-bottom: 1px solid blue;
 	background-color:#CEFFCE;
+	margin: auto;
 }
 
 table td {
@@ -24,12 +25,11 @@ button {
 css 注释： 
 只对table td设置左与上边框； 
 对table设置右与下边框； 
-为了便于截图，我们将css 注释说明换行排版 
 */
 </style>
 </head>
 <body>
-	<table style="">
+	<table>
 		<tr>
 			<td style="text-align: center;">招聘对象</td>
 			<td><input type="text" name="fname" placeholder="行业客户经理" /></td>
@@ -61,7 +61,7 @@ css 注释：
 		<tr>
 			<td colspan="2" style="text-align: center;">
 				<button type="button">确定</button>
-				<button type="button">取消</button>
+				<button type="reset">取消</button>
 			</td>
 		</tr>
 	</table>
